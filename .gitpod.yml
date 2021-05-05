@@ -1,4 +1,5 @@
-image: dotnetcore3/dotnet
+image:
+  file: Dockerfile
 
 tasks:
   - init: dotnet build
