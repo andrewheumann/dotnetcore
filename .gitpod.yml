@@ -1,5 +1,5 @@
-image: stefanotte/dotnetcore3.1npm
-
+image:
+  file: DockerFile
 tasks:
   - init: dotnet build
     command: dotnet run
